@@ -5639,6 +5639,299 @@
    "total_bytes": 2069618,
    "files_over_100MB": [],
    "sha256_source": "see per-file verified_against"
+  },
+  {
+   "id": "chromium/blink",
+   "covers": "WebKit/Blink (third_party/blink)",
+   "licence": "LGPL-2.0 / LGPL-2.1 (WebKit-derived files; BSD for others)",
+   "source": {
+    "url": "https://chromium.googlesource.com/chromium/src/+archive/0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174/third_party/blink.tar.gz",
+    "revision": "Chromium tag 152.0.7977.76 (commit 0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174)"
+   },
+   "files": [
+    {
+     "name": "chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-third_party_blink.tar.gz",
+     "bytes": 557875651,
+     "sha256": "15b3e879ecd9ffaf3e1e0a11bcf21f999abab9bc4625f3a623dcd43efe62390b",
+     "verified_against": "computed on download",
+     "local_path": "chromium-components/archives/chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-third_party_blink.tar.gz",
+     "release_asset": "chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-third_party_blink.tar.gz"
+    }
+   ],
+   "note": "Over 100 MB (about 558 MB)",
+   "status": "STAGED"
+  },
+  {
+   "id": "chromium/hunspell",
+   "covers": "hunspell (third_party/hunspell)",
+   "licence": "MPL-1.1 / GPL-2.0 / LGPL-2.1 tri-licence",
+   "source": {
+    "url": "https://chromium.googlesource.com/chromium/src/+archive/0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174/third_party/hunspell.tar.gz",
+    "revision": "Chromium tag 152.0.7977.76 (commit 0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174)"
+   },
+   "files": [
+    {
+     "name": "chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-third_party_hunspell.tar.gz",
+     "bytes": 1199646,
+     "sha256": "6dce72db6be7e5041d5e26e7ff077effa8e21a2cf63b6bca7213fe926557309f",
+     "verified_against": "computed on download",
+     "local_path": "chromium-components/archives/chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-third_party_hunspell.tar.gz",
+     "release_asset": "chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-third_party_hunspell.tar.gz"
+    }
+   ],
+   "status": "STAGED"
+  },
+  {
+   "id": "chromium/mozilla-security-manager",
+   "covers": "Mozilla Personal Security Manager: nsNSSCertificateDB.cpp, nsPKCS12Blob.cpp",
+   "licence": "MPL-1.1",
+   "source": {
+    "url": "https://chromium.googlesource.com/chromium/src/+archive/0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174/net/third_party/mozilla_security_manager.tar.gz",
+    "revision": "Chromium tag 152.0.7977.76 (commit 0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174)"
+   },
+   "files": [
+    {
+     "name": "chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-net_third_party_mozilla_security_manager.tar.gz",
+     "bytes": 16480,
+     "sha256": "160e29f54da0e303a370654dca9c56ba9390f4ca6122fb79ecacdc519540dcc0",
+     "verified_against": "computed on download",
+     "local_path": "chromium-components/archives/chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-net_third_party_mozilla_security_manager.tar.gz",
+     "release_asset": "chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-net_third_party_mozilla_security_manager.tar.gz"
+    }
+   ],
+   "status": "STAGED"
+  },
+  {
+   "id": "chromium/nspr-prtime",
+   "covers": "NSPR prtime.cc (base/third_party/nspr)",
+   "licence": "MPL-2.0",
+   "source": {
+    "url": "https://chromium.googlesource.com/chromium/src/+archive/0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174/base/third_party/nspr.tar.gz",
+    "revision": "Chromium tag 152.0.7977.76 (commit 0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174)"
+   },
+   "files": [
+    {
+     "name": "chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-base_third_party_nspr.tar.gz",
+     "bytes": 18681,
+     "sha256": "562dd98666da5a84fd33ee9289102f5ba442d05228b574486127b6db5f131dc2",
+     "verified_against": "computed on download",
+     "local_path": "chromium-components/archives/chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-base_third_party_nspr.tar.gz",
+     "release_asset": "chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-base_third_party_nspr.tar.gz"
+    }
+   ],
+   "status": "STAGED"
+  },
+  {
+   "id": "chromium/url-parse",
+   "covers": "url_parse.cc (url/third_party/mozilla)",
+   "licence": "BSD-3-Clause, MPL-1.1",
+   "source": {
+    "url": "https://chromium.googlesource.com/chromium/src/+archive/0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174/url/third_party/mozilla.tar.gz",
+    "revision": "Chromium tag 152.0.7977.76 (commit 0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174)"
+   },
+   "files": [
+    {
+     "name": "chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-url_third_party_mozilla.tar.gz",
+     "bytes": 16954,
+     "sha256": "b83f56569aabea1ecbb9259b3517984e516699df816e05620b4c94b67ffa2597",
+     "verified_against": "computed on download",
+     "local_path": "chromium-components/archives/chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-url_third_party_mozilla.tar.gz",
+     "release_asset": "chromium-0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174-url_third_party_mozilla.tar.gz"
+    }
+   ],
+   "status": "STAGED"
+  },
+  {
+   "id": "chromium/eigen",
+   "covers": "Eigen (third_party/eigen3/src, via TFLite)",
+   "licence": "MPL-2.0",
+   "source": {
+    "url": "https://chromium.googlesource.com/external/gitlab.com/libeigen/eigen/+archive/d53ac33805ba0a23fa139adaf24227fb6707e6fa.tar.gz",
+    "revision": "DEPS pin src/third_party/eigen3/src @ d53ac33805ba0a23fa139adaf24227fb6707e6fa"
+   },
+   "files": [
+    {
+     "name": "eigen-d53ac33805ba0a23fa139adaf24227fb6707e6fa.tar.gz",
+     "bytes": 3445722,
+     "sha256": "f906a1b1a83d13b905393ea35df879e8264f87ea2cf87571c50cbfcc48ebb5c0",
+     "verified_against": "computed on download",
+     "local_path": "chromium-components/archives/eigen-d53ac33805ba0a23fa139adaf24227fb6707e6fa.tar.gz",
+     "release_asset": "eigen-d53ac33805ba0a23fa139adaf24227fb6707e6fa.tar.gz"
+    }
+   ],
+   "status": "STAGED"
+  },
+  {
+   "id": "chromium/plasma-wayland-protocols",
+   "covers": "plasma-wayland-protocols (src/third_party/wayland-protocols/kde)",
+   "licence": "LGPL-2.1",
+   "source": {
+    "url": "https://chromium.googlesource.com/external/github.com/KDE/plasma-wayland-protocols/+archive/0b07950714b3a36c9b9f71fc025fc7783e82926e.tar.gz",
+    "revision": "DEPS pin @ 0b07950714b3a36c9b9f71fc025fc7783e82926e"
+   },
+   "files": [
+    {
+     "name": "plasma-wayland-protocols-0b07950714b3a36c9b9f71fc025fc7783e82926e.tar.gz",
+     "bytes": 49723,
+     "sha256": "4edee02c95da2ad20d38181faf855d0673b4d2160a5c107e3a25b563623eae78",
+     "verified_against": "computed on download",
+     "local_path": "chromium-components/archives/plasma-wayland-protocols-0b07950714b3a36c9b9f71fc025fc7783e82926e.tar.gz",
+     "release_asset": "plasma-wayland-protocols-0b07950714b3a36c9b9f71fc025fc7783e82926e.tar.gz"
+    }
+   ],
+   "status": "STAGED"
+  },
+  {
+   "id": "chromium/symphonia-crates",
+   "covers": "symphonia, symphonia-bundle-flac, -bundle-mp3, -codec-pcm, -codec-vorbis, -common, -core, -metadata (all 0.6.0)",
+   "licence": "MPL-2.0",
+   "source": {
+    "url": "https://crates.io/crates/symphonia (static.crates.io/crates/<name>/<name>-0.6.0.crate)",
+    "version": "0.6.0, from third_party/rust/chromium_crates_io/Cargo.lock at 0d89dfa2dd7c1ec4b8a14b9f303f887bb63b6174 (vendor dirs *-v0_6)"
+   },
+   "files": [
+    {
+     "name": "symphonia-0.6.0.crate",
+     "bytes": 17223,
+     "sha256": "1758d6c853020a7244de03cc3e0185eaea3f58715122422dd3cc7452e6d4c16a",
+     "verified_against": "crates.io index cksum (index.crates.io)",
+     "local_path": "chromium-components/crates/symphonia-0.6.0.crate",
+     "release_asset": "symphonia-0.6.0.crate"
+    },
+    {
+     "name": "symphonia-bundle-flac-0.6.0.crate",
+     "bytes": 31180,
+     "sha256": "ee69ad01236a67260b82fd1ff9790dd75ead29f2f46af145e63b7e72273e0e03",
+     "verified_against": "crates.io index cksum (index.crates.io)",
+     "local_path": "chromium-components/crates/symphonia-bundle-flac-0.6.0.crate",
+     "release_asset": "symphonia-bundle-flac-0.6.0.crate"
+    },
+    {
+     "name": "symphonia-bundle-mp3-0.6.0.crate",
+     "bytes": 68037,
+     "sha256": "350f1f2f2e19ad4dd315db94304d1eb361b29af070681f94e51b8fdaad769546",
+     "verified_against": "crates.io index cksum (index.crates.io)",
+     "local_path": "chromium-components/crates/symphonia-bundle-mp3-0.6.0.crate",
+     "release_asset": "symphonia-bundle-mp3-0.6.0.crate"
+    },
+    {
+     "name": "symphonia-codec-pcm-0.6.0.crate",
+     "bytes": 12246,
+     "sha256": "50baee168f0e9dcf6ba7fc06e8b57eb62072a4490cc7cf13af77e72baae5d328",
+     "verified_against": "crates.io index cksum (index.crates.io)",
+     "local_path": "chromium-components/crates/symphonia-codec-pcm-0.6.0.crate",
+     "release_asset": "symphonia-codec-pcm-0.6.0.crate"
+    },
+    {
+     "name": "symphonia-codec-vorbis-0.6.0.crate",
+     "bytes": 31481,
+     "sha256": "45b07b4423cd8e0fc472575909a5554b12c2f58e3c190b38c24f042e732fd8de",
+     "verified_against": "crates.io index cksum (index.crates.io)",
+     "local_path": "chromium-components/crates/symphonia-codec-vorbis-0.6.0.crate",
+     "release_asset": "symphonia-codec-vorbis-0.6.0.crate"
+    },
+    {
+     "name": "symphonia-common-0.6.0.crate",
+     "bytes": 19078,
+     "sha256": "8257891ffa7f05e02b58f4761e2abf7e5278c8744fd59e981559e050f86eef55",
+     "verified_against": "crates.io index cksum (index.crates.io)",
+     "local_path": "chromium-components/crates/symphonia-common-0.6.0.crate",
+     "release_asset": "symphonia-common-0.6.0.crate"
+    },
+    {
+     "name": "symphonia-core-0.6.0.crate",
+     "bytes": 147360,
+     "sha256": "95ec293b5f288383b72a7bffcade6b2860b642cf66f28b3bd5967349a49938b1",
+     "verified_against": "crates.io index cksum (index.crates.io)",
+     "local_path": "chromium-components/crates/symphonia-core-0.6.0.crate",
+     "release_asset": "symphonia-core-0.6.0.crate"
+    },
+    {
+     "name": "symphonia-metadata-0.6.0.crate",
+     "bytes": 59325,
+     "sha256": "a31acf5cd623398a6208e2225d18f4b20f761c55098a796a5247ad516a4a8681",
+     "verified_against": "crates.io index cksum (index.crates.io)",
+     "local_path": "chromium-components/crates/symphonia-metadata-0.6.0.crate",
+     "release_asset": "symphonia-metadata-0.6.0.crate"
+    }
+   ],
+   "status": "STAGED"
+  },
+  {
+   "id": "chromium/axe-core",
+   "covers": "axe-core (DevTools Lighthouse bundle)",
+   "licence": "MPL-2.0",
+   "source": {
+    "url": "https://registry.npmjs.org/axe-core/-/axe-core-4.12.1.tgz",
+    "version": "4.12.1",
+    "note": "Version taken from the manifest evidence (axe v4.12.1 string in resources.pak); not independently traced through the devtools-frontend/lighthouse pin"
+   },
+   "files": [
+    {
+     "name": "axe-core-4.12.1.tgz",
+     "bytes": 607683,
+     "sha256": "4341a01268b5ecbea826f3c7a7d1d69280a2cab3484c93e1bf4c9554460c6ca0",
+     "verified_against": "npm dist.integrity sha512-s7iGf5GaVMxEG0ENN9x+xTr7GFZCb1ZP/1uATUpCEK2X78nDB3RwbtFCo9pGAf9ru+VwoQ464DkaLEeRM08wJA== (matched)",
+     "local_path": "chromium-components/npm/axe-core-4.12.1.tgz",
+     "release_asset": "axe-core-4.12.1.tgz"
+    }
+   ],
+   "status": "STAGED"
+  },
+  {
+   "id": "chromium/full-source",
+   "kind": "upstream-source-tarball",
+   "covers": [
+    "WebKit/Blink (statically linked)",
+    "hunspell (statically linked)",
+    "Chromium 152.0.7977.76"
+   ],
+   "licences": [
+    "LGPL-2.0-or-later",
+    "MPL-1.1",
+    "BSD-3-Clause and others"
+   ],
+   "source_package": "chromium",
+   "source_version": "152.0.7977.76",
+   "upstream_url": "https://commondatastorage.googleapis.com/chromium-browser-official/chromium-152.0.7977.76.tar.xz",
+   "tarball_sha256": "d09f08486b2fe1497d47b7cd91828f37640a97a6d3b46bdf8b4c0dddddcfd801",
+   "reassemble": "cat chromium-152.0.7977.76.tar.xz.part0 chromium-152.0.7977.76.tar.xz.part1 chromium-152.0.7977.76.tar.xz.part2 > chromium-152.0.7977.76.tar.xz",
+   "note": "The Electron 44.2.0 source with its patches is the existing asset electron-v44.2.0.tar.gz (patches/ folder).",
+   "status": "STAGED",
+   "files": [
+    {
+     "name": "chromium-152.0.7977.76.tar.xz.hashes",
+     "bytes": 651,
+     "sha256": "5772d2c6b6c4e1875008196cfc2ec0b74d400ac9180e1ec2d024e9dbdff548b6",
+     "verified_against": "published by Google beside the tarball",
+     "local_path": "chromium-full/chromium-152.0.7977.76.tar.xz.hashes",
+     "release_asset": "chromium-152.0.7977.76.tar.xz.hashes"
+    },
+    {
+     "name": "chromium-152.0.7977.76.tar.xz.part0",
+     "bytes": 1992294400,
+     "sha256": "d07caab767f851a2d5ed1cce5c2684af50916e345de93e17099eb820f73192a1",
+     "verified_against": "parts reassemble to the published sha256",
+     "local_path": "chromium-full/chromium-152.0.7977.76.tar.xz.part0",
+     "release_asset": "chromium-152.0.7977.76.tar.xz.part0"
+    },
+    {
+     "name": "chromium-152.0.7977.76.tar.xz.part1",
+     "bytes": 1992294400,
+     "sha256": "1789daf9e65ec6b4fecb6624844789c8e64991955d27094a93e9e4ce64200cd5",
+     "verified_against": "parts reassemble to the published sha256",
+     "local_path": "chromium-full/chromium-152.0.7977.76.tar.xz.part1",
+     "release_asset": "chromium-152.0.7977.76.tar.xz.part1"
+    },
+    {
+     "name": "chromium-152.0.7977.76.tar.xz.part2",
+     "bytes": 1931687848,
+     "sha256": "e828b618c9c9ddc46bd0330a6e3644fba9c775d519428550a806c5c90e381af6",
+     "verified_against": "parts reassemble to the published sha256",
+     "local_path": "chromium-full/chromium-152.0.7977.76.tar.xz.part2",
+     "release_asset": "chromium-152.0.7977.76.tar.xz.part2"
+    }
+   ]
   }
  ],
  "summary": {

@@ -20,11 +20,23 @@ The source sets are grouped as follows. The group is the start of each entry's `
 - `kata` covers the Kata Containers 3.17.0 source and the kernel build configuration of the Mac guest kernel `vmlinux-6.12.28-153`.
 - `electron` covers Electron v44.2.0, the Chromium ffmpeg tree at the revision named in the Chromium 152.0.7977.76 `DEPS` file, the Electron ffmpeg patch and Node.js v24.20.0.
 - `pypi` covers the PyInstaller 6.22.2 source (with its bootloader), plus chardet and orjson.
+- `chromium/<component>` covers the source of each Chromium component under the GPL, LGPL or MPL that ships in the Linux app (Blink, hunspell, the Mozilla security manager files, NSPR time code, URL parsing, Eigen, plasma-wayland-protocols, the symphonia crates and axe-core), taken at Chromium 152.0.7977.76.
+- `chromium/full-source` covers the complete Chromium 152.0.7977.76 source. WebKit/Blink and hunspell are statically linked. Their corresponding source is the complete Chromium and Electron 44.2.0 source with patches. The Electron source with its patches is `electron-v44.2.0.tar.gz`.
 - `centos7` covers the CentOS 7 gcc 4.8.5-44 source package, the source of the libquadmath that numpy bundles.
 
 Every archive is attached to the release `sources-2026-10-28` of this repository. `MANIFEST.json` names the release asset for each file.
 
 Check each file against the SHA-256 in `MANIFEST.json` before you use it.
+
+## Reassemble the Chromium source
+
+The Chromium source is split into three parts because each release file must be under 2 GiB. Download the three parts into one folder. Then run this command:
+
+```sh
+cat chromium-152.0.7977.76.tar.xz.part0 chromium-152.0.7977.76.tar.xz.part1 chromium-152.0.7977.76.tar.xz.part2 > chromium-152.0.7977.76.tar.xz
+```
+
+The result must match the SHA-256 that Google publishes: `d09f08486b2fe1497d47b7cd91828f37640a97a6d3b46bdf8b4c0dddddcfd801`.
 
 ## Get the source by email
 
